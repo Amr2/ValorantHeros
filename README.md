@@ -1,6 +1,13 @@
 <div align="center">
-	<br>
-    <h1 style="display:flex; justify-content: center;align-items: center;" > <img src="/public/Static/Valorant Heros logo.png" alt="ProjectLogo" width="50px" hieght="50px"/> Valorant Heros</h1>
+	<style>
+        .Header{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+    <br>
+    <h1 class="Header"> <img src="/public/Static/Valorant Heros logo.png" alt="ProjectLogo" width="50px" hieght="50px"/> Valorant Heros</h1>
 	<br>
 </div>
 
