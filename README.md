@@ -1,11 +1,11 @@
 <div align="center">
-	<style>
+	<Style>
         .Header{
             display:flex;
             justify-content: center;
             align-items: center;
         }
-    </style>
+    </Style>
     <br>
     <h1 class="Header"> <img src="/public/Static/Valorant Heros logo.png" alt="ProjectLogo" width="50px" hieght="50px"/> Valorant Heros</h1>
 	<br>
