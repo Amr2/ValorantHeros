@@ -1,6 +1,6 @@
 <div align="center">
 	<br>
-    <h1> Valorant Heros</h1>
+    <h1> <img src="/public/Static/Valorant Heros logo.png" alt="ProjectLogo" width="100px" hieght="100px"/> Valorant Heros</h1>
 	<br>
 </div>
 
