@@ -4,6 +4,6 @@
 
 -Valorant Heros is an apply on API integration to the Front-End.
 
-##Resources 
+##[Resources] 
 -(Valorant API)[https://valorant-api.com/]
 -(React with TypeScript)[https://create-react-app.dev/docs/adding-typescript/]
