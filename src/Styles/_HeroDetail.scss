@@ -1,0 +1,103 @@
+.Hero-Detail {
+  max-width: 80%;
+  width: fit-content;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 4fr;
+  margin: 5rem 0 0 0;
+  gap: 5rem;
+  & .side-img {
+    width: 310px;
+    height: 90vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    // overflow: hidden;
+    & img {
+      z-index: 0;
+      transform: translate(-45%, -6%) scale(0.4);
+    }
+  }
+  & .info-cont {
+    z-index: 1;
+    max-width: fit-content;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 2rem;
+  }
+}
+
+.skills-section {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.5rem;
+  & .skills {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    // outline: 2px solid rgb(175, 144, 144);
+    gap: 0.7rem;
+    & .skill {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0.5rem;
+      background: linear-gradient(35deg, #ff4656ee, #0a141eee 80%);
+      & img {
+        width: 64px;
+        height: 64px;
+      }
+    }
+  }
+  & .skill-D {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    width: 100%;
+    transition: all 300ms ease-in-out;
+    & p {
+      height: 300px;
+    }
+  }
+}
+
+.Role-Info{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-flow: column nowrap;
+    gap: 1.5rem;
+    & .info{
+        display: flex;
+        flex-flow: nowrap row;
+        gap: 1rem;
+        & .skill {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0.5rem;
+            background: linear-gradient(35deg, #ff4656ee, #0a141eee 80%);
+            & img {
+              width: 64px;
+              height: 64px;
+            }
+          }
+    }
+}
+
+
+.animat {
+  transition: all 300ms ease-in-out !important;
+}
+
+.Desc-Font {
+  font-family: "Kanit", sans-serif, "Bebas Neue", cursive;
+  font-weight: 400;
+  font-size: 20px;
+}

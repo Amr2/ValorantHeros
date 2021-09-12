@@ -1,0 +1,47 @@
+@import url("http://fonts.cdnfonts.com/css/valorant");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;600&display=swap");
+@import "Heros";
+@import "NavBar";
+@import "HeroDetail";
+@import "HeroSetion";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "VALORANT", sans-serif;
+  cursor: default;
+}
+
+a {
+  all: unset;
+}
+
+body {
+  background: linear-gradient(225deg, #5f2d38, #0a141eee 80%) no-repeat;
+  color: white;
+}
+
+.App {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  main {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+    text-align: center;
+  }
+}

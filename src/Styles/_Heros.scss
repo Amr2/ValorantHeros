@@ -1,0 +1,52 @@
+.Heros-cont {
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  /* grid-column: 1fr 1fr 1fr; */
+  grid-auto-rows: 400px;
+  grid-template-rows: repeat(auto-fit, 400px);
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, 260px);
+  padding: 2rem;
+  height: max-content;
+}
+
+.hero {
+  position: relative;
+  background-image: url(https://media.valorant-api.com/playercards/9fb348bc-41a0-91ad-8a3e-818035c4e561/largeart.png);
+  background-size: cover;
+  overflow: hidden;
+}
+.hero img {
+  position: absolute;
+  top: -210%;
+  left: 50%;
+  transform: translate(-50%) scale(0.22);
+  // width: 90%;
+  // height: 90%;
+  filter: grayscale(100);
+  transition: all 500ms ease-in-out;
+}
+
+.hero p {
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  color: hsl(0, 0%, 90%);
+  font-weight: 500;
+  opacity: 0;
+  transition: all 500ms ease-in-out;
+}
+
+.hero:hover p {
+  top: 90%;
+  opacity: 1;
+}
+.hero:hover img {
+  top: -215%;
+  left: 45%;
+  filter: grayscale(0);
+  transform: translate(-49%) scale(0.17);
+}
