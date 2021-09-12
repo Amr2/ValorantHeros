@@ -1,6 +1,4 @@
-<div align="center">
-    <img src="Readme LOGO.svg" alt="Project Logo">
-</div>
+# <div align="center"><img src="Readme LOGO.svg" alt="Project Logo"/></div>
 
 -Valorant Heros is an apply on API integration to the Front-End.
 ## Resources 
