@@ -23,7 +23,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "git"  : "git add . && git commit -m 'defult' && git push origin master"
+    "gitC"  : "git add . && git commit -m"
   },
   "eslintConfig": {
     "extends": [
